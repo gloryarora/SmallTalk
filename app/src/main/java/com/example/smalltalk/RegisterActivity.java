@@ -52,7 +52,7 @@ public class RegisterActivity extends AppCompatActivity {
               if(TextUtils.isEmpty(Email))
                   Toast.makeText(RegisterActivity.this,"Please enter email..",Toast.LENGTH_SHORT).show();
 
-              if(TextUtils.isEmpty(password))
+             else  if(TextUtils.isEmpty(password))
                   Toast.makeText(RegisterActivity.this,"Please enter Password..",Toast.LENGTH_SHORT).show();
               else{
                   loadingbar.setTitle("creating new account");
